@@ -1,0 +1,117 @@
+#header{
+    margin: 0 0 0 12px;
+    padding: 0;
+    border: 0;
+
+    /* set the position for header*/
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+#logo{
+    /* set the size for logo*/
+    width: 34%;
+    height: 34%;
+    background-color:#fdfcf8
+}
+
+#mainmenu
+{
+    /*delete the dot for list items*/
+    list-style-type:none;
+    
+    /* set the size for main menu*/
+    position: absolute;
+    top:140px;
+    left: 200px;
+
+    text-align: center;
+    width: 1200px;
+    margin:0,auto;
+}
+
+#mainmenu li
+{
+    float:left;
+
+    /*choose border property for menu border*/
+    border:1px solid rgb(0, 183, 255);
+}
+
+#mainmenu a
+{
+    display:block;
+    width:250px;
+}
+
+#mainmenu a{
+    display: block;
+    text-decoration: none;
+    background-color:white;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+}
+
+#mainmenu a:hover,a:active
+{
+    background-color:gray;
+}
+
+.mainbox{
+    /* set the position for main body*/
+    position: absolute;
+    top:320px;
+    left: 400px;
+    /* creat round-cornered border for main body */
+    border: thin solid black;
+    border-radius:30px;
+
+    
+    width: 700px;
+    margin: 0 auto;
+    font-size: larger;
+}
+
+#loginbox{
+    height: 450px;
+}
+
+#registerbox{
+    height: 900px;
+}
+
+/* set the position for h2*/
+#subheader{
+    position: absolute;
+    top:220px;
+    left: 400px;
+    width: 50%;
+}
+
+form{
+    position: absolute;
+    left: 50px;
+}
+
+.submitbutton{
+    width: 100px;
+    height:61px;
+}
+
+button {
+    position: absolute;
+    left: 50px;
+    text-decoration: none;
+}
+
+#failureMsg{
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    border: none;
+
+}
+
